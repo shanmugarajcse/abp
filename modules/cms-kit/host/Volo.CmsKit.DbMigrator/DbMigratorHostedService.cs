@@ -8,8 +8,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Volo.Abp;
+using Volo.CmsKit.Data;
 
-namespace Volo.CmsKit.DbMigrator
+namespace Volo.CmsKit
 {
     public class DbMigratorHostedService : IHostedService
     {

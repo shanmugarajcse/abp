@@ -2,7 +2,7 @@
 using Volo.Abp.BackgroundJobs;
 using Volo.Abp.Modularity;
 
-namespace Volo.CmsKit.DbMigrator
+namespace Volo.CmsKit
 {
     [DependsOn(
     typeof(AbpAutofacModule),

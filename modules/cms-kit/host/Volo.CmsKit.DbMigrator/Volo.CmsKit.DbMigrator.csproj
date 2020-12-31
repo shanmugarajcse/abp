@@ -5,6 +5,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <PreserveCompilationReferences>true</PreserveCompilationReferences>
     <UserSecretsId>Volo.CmsKit-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
+    <RootNamespace>Volo.CmsKit</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,7 +26,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\framework\src\Volo.Abp.Autofac\Volo.Abp.Autofac.csproj" />
     <ProjectReference Include="..\Volo.CmsKit.Web.Unified\Volo.CmsKit.Web.Unified.csproj" />
-
   </ItemGroup>
 
 </Project>
